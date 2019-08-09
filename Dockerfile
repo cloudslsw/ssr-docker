@@ -9,7 +9,7 @@ RUN git clone -b manyuser https://github.com/shadowsocksr-backup/shadowsocksr
 
 ENV SSR_PORT="10101" \
     SSR_PASSWORD="zxczxc" \
-    SSR_METHOD="chacha20-ietf" \
+    SSR_METHOD="rc4-md5" \
     SSR_PROTOCOL="auth_sha1_v4" \
     SSR_OBFS="plain"
 
