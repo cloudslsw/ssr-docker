@@ -22,14 +22,14 @@ curl -sSL https://get.docker.com/ | sh
 
 ### 编译镜像
 ```
-git clone https://github.com/kallydev/ssr-docker
+git clone https://github.com/cloudslsw/ssr-docker
 cd ssr-docker
 docker build -t ssr-docker .
 ```
 
 ### 启动镜像
 ```
-docker run -d -p 443:443/tcp -p 443:443/udp -it ssr-docker
+docker run -d -p 10101:10101/tcp -p 10101:10101/udp -it ssr-docker
 ```
 
 ## 开源协议
